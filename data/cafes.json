@@ -1,0 +1,573 @@
+[
+  {
+    "id": "little-rogue",
+    "name": "Little Rogue",
+    "suburb": "Melbourne CBD",
+    "address": "12 Drewery Lane, Melbourne VIC 3000",
+    "categories": [
+      "latte",
+      "pure",
+      "dessert"
+    ],
+    "photo": 0,
+    "description": "Một cánh cửa xanh trên Drewery Lane, với matcha latte và bánh tart cho buổi dạo phố.",
+    "reference": 6.5,
+    "referenceLabel": "Matcha latte nóng",
+    "priceType": "secondary",
+    "priceNote": "Giá tham khảo từ FreeFromCafes; chưa xác nhận trực tiếp với quán.",
+    "menu": [
+      [
+        "Matcha latte nóng",
+        6.5,
+        "latte"
+      ],
+      [
+        "Iced matcha latte",
+        8.5,
+        "latte"
+      ],
+      [
+        "Ceremonial matcha",
+        6,
+        "pure"
+      ],
+      [
+        "Matcha tart",
+        8,
+        "dessert"
+      ]
+    ],
+    "website": "https://www.littlerogue.com.au/",
+    "menuUrl": "https://freefromcafe.com/au/vic/melbourne/melbourne/little-rogue",
+    "sources": [
+      [
+        "Website quán · địa chỉ",
+        "https://www.littlerogue.com.au/"
+      ],
+      [
+        "FreeFromCafes · menu và giá tham khảo",
+        "https://freefromcafe.com/au/vic/melbourne/melbourne/little-rogue"
+      ]
+    ],
+    "keywords": "little rogue laneway blue door cua xanh nguyen chat ceremonial tart",
+    "hours": "Xem giờ mở cửa trên kênh của quán.",
+    "milk": "Nguồn menu có lựa chọn soy và oat; phụ thu được niêm yết riêng.",
+    "checked": "2026-10-26",
+    "directions": "https://www.google.com/maps/search/?api=1&query=Little%20Rogue%2012%20Drewery%20Lane%2C%20Melbourne%20VIC%203000"
+  },
+  {
+    "id": "toris",
+    "name": "Tori’s",
+    "suburb": "Melbourne CBD",
+    "address": "28 Niagara Lane, Melbourne VIC 3000",
+    "categories": [
+      "latte",
+      "fruit",
+      "dessert",
+      "hojicha"
+    ],
+    "photo": 1,
+    "description": "Matcha cùng bánh ngọt trong một con hẻm ở CBD. Iced matcha có thể thêm strawberry purée hoặc cream.",
+    "reference": 8.8,
+    "referenceLabel": "Iced matcha",
+    "priceType": "official",
+    "priceNote": "Giá trên trang đặt món của Tori’s; kiểm tra lại chi nhánh và phụ thu khi đặt.",
+    "menu": [
+      [
+        "Iced matcha",
+        8.8,
+        "latte"
+      ],
+      [
+        "Thêm strawberry purée",
+        1,
+        "fruit"
+      ],
+      [
+        "Thêm soft cream / matcha cream",
+        2,
+        "dessert"
+      ],
+      [
+        "Thêm oat / soy / almond",
+        0.8,
+        "latte"
+      ]
+    ],
+    "website": "https://www.toris.com.au/",
+    "menuUrl": "https://www.toris.com.au/product/iced-matcha/40",
+    "sources": [
+      [
+        "Tori’s · địa chỉ Niagara Lane",
+        "https://www.toris.com.au/"
+      ],
+      [
+        "Tori’s · iced matcha và phụ thu",
+        "https://www.toris.com.au/product/iced-matcha/40"
+      ]
+    ],
+    "keywords": "tori toris toris niagara strawberry dau cream banh ngot",
+    "hours": "Kiểm tra giờ của chi nhánh Niagara Lane trước khi ghé.",
+    "milk": "Trang iced matcha có oat, soy và almond, phụ thu A$0.80. Bánh và cream có thể chứa sữa.",
+    "checked": "2026-10-26",
+    "directions": "https://www.google.com/maps/search/?api=1&query=Tori%E2%80%99s%2028%20Niagara%20Lane%2C%20Melbourne%20VIC%203000"
+  },
+  {
+    "id": "hareruya-pantry",
+    "name": "Hareruya Pantry",
+    "suburb": "Carlton",
+    "address": "15–17 Lincoln Square South, Carlton VIC 3053",
+    "categories": [
+      "latte",
+      "dessert",
+      "hojicha"
+    ],
+    "photo": 4,
+    "description": "Matcha, gelato và bánh ngọt ngay đối diện Lincoln Square. Một điểm dừng cho buổi chiều ở Carlton.",
+    "reference": 7,
+    "referenceLabel": "Matcha latte trên website",
+    "priceType": "official",
+    "priceNote": "Giá hiển thị ở lựa chọn mặc định trên website chung; giá theo size, nóng/đá và chi nhánh có thể khác.",
+    "menu": [
+      [
+        "Matcha latte · lựa chọn mặc định online",
+        7,
+        "latte"
+      ],
+      [
+        "Matcha cookie",
+        6.8,
+        "dessert"
+      ],
+      [
+        "Gelato single cup · vị thay đổi",
+        7,
+        "dessert"
+      ],
+      [
+        "Matcha chia yoghurt",
+        9,
+        "dessert"
+      ]
+    ],
+    "website": "https://hareruya.com.au/",
+    "menuUrl": "https://hareruya.com.au/collections/everyday-menu",
+    "sources": [
+      [
+        "Hareruya · địa chỉ và giờ mở cửa",
+        "https://hareruya.com.au/pages/contact-us"
+      ],
+      [
+        "Hareruya · latte",
+        "https://hareruya.com.au/products/latte"
+      ],
+      [
+        "Hareruya · menu bánh và gelato",
+        "https://hareruya.com.au/collections/everyday-menu"
+      ]
+    ],
+    "keywords": "hareruya pantry carlton gelato kem mochi daifuku cookie banh ngot cong vien",
+    "hours": "Hằng ngày 10:30–22:30 · theo website quán; ngày lễ có thể khác.",
+    "milk": "Website nêu full-cream, soy và oat. Hỏi nhân viên về thành phần của từng vị gelato.",
+    "checked": "2026-10-26",
+    "directions": "https://www.google.com/maps/search/?api=1&query=Hareruya%20Pantry%2015%E2%80%9317%20Lincoln%20Square%20South%2C%20Carlton%20VIC%203053"
+  },
+  {
+    "id": "itteki-south-yarra",
+    "name": "itteki 一滴",
+    "suburb": "South Yarra",
+    "address": "11 Daly Street, South Yarra VIC 3141",
+    "categories": [
+      "latte",
+      "fruit",
+      "hojicha"
+    ],
+    "photo": 5,
+    "description": "Quán chuyên matcha Nhật trên Daly Street, với latte cổ điển và những phiên bản có trái cây.",
+    "reference": 7,
+    "referenceLabel": "Matcha latte nóng · từ",
+    "priceType": "seasonal",
+    "priceNote": "Giá từ menu mùa xuân trong nguồn được liên kết; menu theo mùa có thể đã thay đổi. Cần xác nhận tại quán.",
+    "menu": [
+      [
+        "Matcha latte nóng · small / large",
+        "A$7.00 / A$8.00",
+        "latte"
+      ],
+      [
+        "Mango matcha",
+        null,
+        "fruit"
+      ],
+      [
+        "Strawberry matcha",
+        null,
+        "fruit"
+      ],
+      [
+        "Hojicha latte",
+        null,
+        "hojicha"
+      ]
+    ],
+    "website": "https://itteki.com.au/",
+    "menuUrl": "https://itteki.com.au/menu/",
+    "sources": [
+      [
+        "itteki · quán và địa chỉ",
+        "https://itteki.com.au/"
+      ],
+      [
+        "itteki · menu theo mùa",
+        "https://itteki.com.au/menu/"
+      ],
+      [
+        "Menu PDF · giá tham khảo theo mùa",
+        "https://eccdn.com.au/menuPdfs/476F658C-EA16-4384-9F6A-10D5989B286E/pdfmenu_476F658C-EA16-4384-9F6A-10D5989B286E_1773962239089.pdf"
+      ]
+    ],
+    "keywords": "itteki south yarra dau strawberry mango xoai ceremonial latte",
+    "hours": "Kiểm tra giờ của chi nhánh South Yarra trên kênh chính thức.",
+    "milk": "Hỏi quán về loại sữa và phụ thu cho từng món.",
+    "checked": "2026-10-26",
+    "directions": "https://www.google.com/maps/search/?api=1&query=itteki%20%E4%B8%80%E6%BB%B4%2011%20Daly%20Street%2C%20South%20Yarra%20VIC%203141"
+  },
+  {
+    "id": "matcha-kobo",
+    "name": "Matcha Kōbō",
+    "suburb": "Melbourne CBD",
+    "address": "Level 2, 258 Lonsdale Street, Melbourne VIC 3000",
+    "categories": [
+      "latte",
+      "pure",
+      "fruit",
+      "dessert",
+      "hojicha"
+    ],
+    "photo": 2,
+    "description": "Trà Uji được xay tại quán, từ chawan usucha đến latte, soda yuzu và triple matcha tart.",
+    "reference": null,
+    "referenceLabel": "Giá chưa xác minh",
+    "priceType": "unknown",
+    "priceNote": "Website quán cho biết giá được niêm yết tại cửa hàng; chưa có bảng giá online để đối chiếu.",
+    "menu": [
+      [
+        "Usucha · matcha thuần",
+        null,
+        "pure"
+      ],
+      [
+        "Koicha · matcha đậm đặc",
+        null,
+        "pure"
+      ],
+      [
+        "Matcha latte",
+        null,
+        "latte"
+      ],
+      [
+        "Matcha & yuzu soda",
+        null,
+        "fruit"
+      ],
+      [
+        "Triple matcha tart",
+        null,
+        "dessert"
+      ],
+      [
+        "Hojicha latte",
+        null,
+        "hojicha"
+      ]
+    ],
+    "website": "https://matchakobo.online/",
+    "menuUrl": "https://matchakobo.online/menu/",
+    "sources": [
+      [
+        "Matcha Kōbō · menu",
+        "https://matchakobo.online/menu/"
+      ],
+      [
+        "Matcha Kōbō · địa chỉ và giờ mở cửa",
+        "https://matchakobo.online/contact/"
+      ],
+      [
+        "City of Melbourne · hồ sơ quán",
+        "https://whatson.melbourne.vic.gov.au/eat-and-drink/matcha-kobo"
+      ]
+    ],
+    "keywords": "kobo koubou ceremonial nguyen chat usucha koicha chawan yuzu tart tra xay",
+    "hours": "Hằng ngày 11:00–21:00 · theo website quán; ngày lễ có thể khác.",
+    "milk": "Quán đề nghị hỏi nhân viên về nhu cầu ăn uống và thành phần.",
+    "checked": "2026-10-26",
+    "directions": "https://www.google.com/maps/search/?api=1&query=Matcha%20K%C5%8Db%C5%8D%20Level%202%2C%20258%20Lonsdale%20Street%2C%20Melbourne%20VIC%203000"
+  },
+  {
+    "id": "chayo",
+    "name": "Chayō Japanese Café",
+    "suburb": "Clayton",
+    "address": "351 Clayton Road, Clayton VIC 3168",
+    "categories": [
+      "latte",
+      "pure",
+      "fruit",
+      "hojicha",
+      "dessert"
+    ],
+    "photo": 3,
+    "description": "Matcha Uji, trà Nhật và món ăn Nhật tại Clayton. Menu có cả ceremonial matcha và latte dâu theo mùa.",
+    "reference": 6,
+    "referenceLabel": "Matcha latte nóng · small",
+    "priceType": "official",
+    "priceNote": "Giá từ PDF menu được website quán liên kết. Giá gốc, chưa gồm đổi sữa, thêm matcha hoặc phụ thu ngày lễ.",
+    "menu": [
+      [
+        "Matcha latte nóng · small / large",
+        "A$6.00 / A$6.75",
+        "latte"
+      ],
+      [
+        "Matcha latte đá · small / large",
+        "A$7.50 / A$8.25",
+        "latte"
+      ],
+      [
+        "Ceremonial matcha",
+        10,
+        "pure"
+      ],
+      [
+        "Iced strawberry matcha · small / large",
+        "A$9.00 / A$9.75",
+        "fruit"
+      ],
+      [
+        "Hojicha latte nóng · small / large",
+        "A$6.00 / A$6.75",
+        "hojicha"
+      ]
+    ],
+    "website": "https://www.chayo.com.au/",
+    "menuUrl": "https://www.chayo.com.au/uploads/b/be75d920-d47e-11e9-b4db-b7a92a3df65a/25130cf0-f44d-11f0-a393-9793929284f2.pdf",
+    "sources": [
+      [
+        "Chayō · địa chỉ, giờ và trà Uji",
+        "https://www.chayo.com.au/"
+      ],
+      [
+        "Chayō · menu PDF, trang đồ uống",
+        "https://www.chayo.com.au/uploads/b/be75d920-d47e-11e9-b4db-b7a92a3df65a/25130cf0-f44d-11f0-a393-9793929284f2.pdf"
+      ]
+    ],
+    "keywords": "chayo clayton uji latte nguyen chat ceremonial strawberry dau brunch",
+    "hours": "Thứ Hai–Chủ Nhật 08:00–16:00; ngày lễ 09:00–15:00 · theo website quán.",
+    "milk": "Menu có soy, almond, oat và lactose-free, phụ thu A$0.75. Extra matcha 1g: A$1.00.",
+    "checked": "2026-10-26",
+    "directions": "https://www.google.com/maps/search/?api=1&query=Chay%C5%8D%20Japanese%20Caf%C3%A9%20351%20Clayton%20Road%2C%20Clayton%20VIC%203168"
+  },
+  {
+    "id": "hikari",
+    "name": "Hikari",
+    "suburb": "Melbourne CBD",
+    "address": "317 Swanston Street, Melbourne VIC 3000",
+    "categories": [
+      "latte"
+    ],
+    "photo": 0,
+    "description": "Quán phong cách Nhật trên Swanston Street, với matcha latte, cà phê và đồ gốm để ngắm nghía.",
+    "reference": null,
+    "referenceLabel": "Giá chưa xác minh",
+    "priceType": "unknown",
+    "priceNote": "Nguồn của City of Melbourne xác nhận matcha latte nhưng không niêm yết giá; xem menu trực tiếp tại quán.",
+    "menu": [
+      [
+        "Matcha latte",
+        null,
+        "latte"
+      ],
+      [
+        "Iced matcha latte",
+        null,
+        "latte"
+      ]
+    ],
+    "website": "https://www.hikarilife.com.au/",
+    "menuUrl": "https://whatson.melbourne.vic.gov.au/eat-and-drink/hikari",
+    "sources": [
+      [
+        "City of Melbourne · địa chỉ, menu và giờ",
+        "https://whatson.melbourne.vic.gov.au/eat-and-drink/hikari"
+      ]
+    ],
+    "keywords": "hikari swanston latte gốm ceramics cafe",
+    "hours": "Thứ Hai–Thứ Sáu 08:00–17:00; cuối tuần 09:00–17:00 · theo City of Melbourne.",
+    "milk": "Hỏi quán về loại sữa và phụ thu trước khi gọi.",
+    "checked": "2026-10-26",
+    "directions": "https://www.google.com/maps/search/?api=1&query=Hikari%20317%20Swanston%20Street%2C%20Melbourne%20VIC%203000"
+  },
+  {
+    "id": "kyoto-matcha",
+    "name": "Kyoto Matcha",
+    "suburb": "Melbourne CBD",
+    "address": "B1 South, Town Hall Station, Tenancy 901, 77/44–86 Swanston Street, Melbourne VIC 3000",
+    "categories": [
+      "latte",
+      "fruit",
+      "hojicha"
+    ],
+    "photo": 1,
+    "description": "Một điểm dừng tại Town Hall Station, với lựa chọn Naka, Midori, Morita và những món matcha biến tấu.",
+    "reference": null,
+    "referenceLabel": "Giá chưa xác minh",
+    "priceType": "unknown",
+    "priceNote": "Nguồn của City of Melbourne có món và địa chỉ nhưng chưa có giá để đối chiếu.",
+    "menu": [
+      [
+        "Matcha latte · Naka / Midori / Morita",
+        null,
+        "latte"
+      ],
+      [
+        "Corn cream matcha",
+        null,
+        "latte"
+      ],
+      [
+        "Ube pudding matcha",
+        null,
+        "dessert"
+      ],
+      [
+        "Blueberry cheesecake matcha",
+        null,
+        "fruit"
+      ],
+      [
+        "Hojicha",
+        null,
+        "hojicha"
+      ]
+    ],
+    "website": "https://kyotomatcha.com.au/",
+    "menuUrl": "https://whatson.melbourne.vic.gov.au/eat-and-drink/kyoto-matcha",
+    "sources": [
+      [
+        "City of Melbourne · món và địa chỉ",
+        "https://whatson.melbourne.vic.gov.au/eat-and-drink/kyoto-matcha"
+      ]
+    ],
+    "keywords": "kyoto town hall station naka midori morita corn cream ube blueberry việt quất ga tau",
+    "hours": "Thứ Hai–Thứ Sáu 08:00–18:00; cuối tuần 10:00–17:00 · theo City of Melbourne.",
+    "milk": "Hỏi quán về thành phần của từng loại cream và pudding.",
+    "checked": "2026-10-26",
+    "directions": "https://www.google.com/maps/search/?api=1&query=Kyoto%20Matcha%20B1%20South%2C%20Town%20Hall%20Station%2C%20Tenancy%20901%2C%2077/44%E2%80%9386%20Swanston%20Street%2C%20Melbourne%20VIC%203000"
+  },
+  {
+    "id": "hareruya-cbd",
+    "name": "Hareruya Pantry · CBD",
+    "suburb": "Melbourne CBD",
+    "address": "27 Somerset Place, Melbourne VIC 3000",
+    "categories": [
+      "latte",
+      "dessert",
+      "hojicha"
+    ],
+    "photo": 4,
+    "description": "Chi nhánh Hareruya giữa CBD: matcha latte, bánh cookie và gelato với vị thay đổi theo ngày.",
+    "reference": 7,
+    "referenceLabel": "Matcha latte trên website",
+    "priceType": "official",
+    "priceNote": "Giá từ website chung của Hareruya, chưa xác nhận riêng cho chi nhánh CBD. Kiểm tra lại khi ghé.",
+    "menu": [
+      [
+        "Matcha latte · lựa chọn mặc định online",
+        7,
+        "latte"
+      ],
+      [
+        "Matcha cookie",
+        6.8,
+        "dessert"
+      ],
+      [
+        "Gelato single cup · vị thay đổi",
+        7,
+        "dessert"
+      ]
+    ],
+    "website": "https://hareruya.com.au/",
+    "menuUrl": "https://hareruya.com.au/collections/everyday-menu",
+    "sources": [
+      [
+        "Hareruya · địa chỉ hai chi nhánh",
+        "https://hareruya.com.au/pages/contact-us"
+      ],
+      [
+        "Hareruya · latte",
+        "https://hareruya.com.au/products/latte"
+      ],
+      [
+        "Hareruya · menu chung",
+        "https://hareruya.com.au/collections/everyday-menu"
+      ]
+    ],
+    "keywords": "hareruya cbd somerset gelato kem mochi cookie banh ngot",
+    "hours": "Hằng ngày 10:30–22:30 · theo website chung; xác nhận giờ riêng của chi nhánh.",
+    "milk": "Website có full-cream, soy và oat. Hỏi nhân viên về từng món và phụ thu.",
+    "checked": "2026-10-26",
+    "directions": "https://www.google.com/maps/search/?api=1&query=Hareruya%20Pantry%20%C2%B7%20CBD%2027%20Somerset%20Place%2C%20Melbourne%20VIC%203000"
+  },
+  {
+    "id": "itteki-southbank",
+    "name": "itteki 一滴 · Southbank",
+    "suburb": "Southbank",
+    "address": "Shop 9, Freshwater Place, Southbank VIC 3006",
+    "categories": [
+      "latte",
+      "fruit",
+      "hojicha"
+    ],
+    "photo": 5,
+    "description": "Chi nhánh itteki ở Freshwater Place, cho một điểm hẹn matcha bên phía Southbank.",
+    "reference": null,
+    "referenceLabel": "Giá chưa xác minh",
+    "priceType": "unknown",
+    "priceNote": "Chưa đối chiếu được menu có giá riêng cho Southbank. Các món bên dưới là từ website chung của thương hiệu.",
+    "menu": [
+      [
+        "Matcha latte · xác nhận tại chi nhánh",
+        null,
+        "latte"
+      ],
+      [
+        "Mango matcha · menu thương hiệu",
+        null,
+        "fruit"
+      ],
+      [
+        "Strawberry matcha · menu thương hiệu",
+        null,
+        "fruit"
+      ]
+    ],
+    "website": "https://itteki.com.au/",
+    "menuUrl": "https://itteki.com.au/menu/",
+    "sources": [
+      [
+        "itteki · địa chỉ Southbank và món của thương hiệu",
+        "https://itteki.com.au/"
+      ],
+      [
+        "itteki · menu chung",
+        "https://itteki.com.au/menu/"
+      ]
+    ],
+    "keywords": "itteki southbank freshwater matcha latte strawberry mango dau xoai",
+    "hours": "Kiểm tra giờ riêng của chi nhánh Southbank trên kênh chính thức.",
+    "milk": "Hỏi chi nhánh về lựa chọn sữa, món đang có và phụ thu.",
+    "checked": "2026-10-26",
+    "directions": "https://www.google.com/maps/search/?api=1&query=itteki%20%E4%B8%80%E6%BB%B4%20%C2%B7%20Southbank%20Shop%209%2C%20Freshwater%20Place%2C%20Southbank%20VIC%203006"
+  }
+]
