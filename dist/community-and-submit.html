@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en-AU"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/>
+<title>Community &amp; Submit — Matcha Melbourne</title><meta content="Find your next favourite matcha in Melbourne. Explore cafés, save your favourites and plan a neighbourhood crawl." name="description"/><meta content="#062212" name="theme-color"/><link href="./assets/fonts.css" rel="stylesheet"/><link href="./assets/tailwind.css" rel="stylesheet"/><link href="./assets/site.css" rel="stylesheet"/><link href="./assets/favicon.svg" rel="icon" type="image/svg+xml"/></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><a class="skip-link" href="#main-content">Skip to content</a><header class="site-header"><div class="site-shell header-row"><a class="brand" href="./index.html"><img alt="" decoding="async" height="32" loading="lazy" src="./assets/favicon.svg" width="32"/><span>Matcha Melbourne</span></a><nav aria-label="Main navigation" class="desktop-nav"><a href="./index.html">Explore &amp; Directory</a><a href="./cafe-spotlight.html">Café Spotlight</a><a href="./matcha-map-and-suburbs.html">Map &amp; Suburbs</a><a aria-current="page" href="./community-and-submit.html">Community &amp; Submit</a></nav><div class="header-actions"><button aria-label="Search cafés" class="icon-button" data-open-search="" title="Search cafés (⌘K)" type="button"><span aria-hidden="true" class="material-symbols-outlined">search</span></button><button aria-label="View saved cafés" class="icon-button" data-open-saved="" type="button"><span aria-hidden="true" class="material-symbols-outlined">bookmark</span><span class="saved-count">0</span></button><button aria-controls="mobile-nav" aria-expanded="false" aria-label="Open navigation" class="icon-button mobile-menu-button" type="button"><span aria-hidden="true" class="material-symbols-outlined">menu</span></button></div></div><nav aria-label="Mobile navigation" hidden="" id="mobile-nav"><a href="./index.html">Explore &amp; Directory</a><a href="./cafe-spotlight.html">Café Spotlight</a><a href="./matcha-map-and-suburbs.html">Map &amp; Suburbs</a><a aria-current="page" href="./community-and-submit.html">Community &amp; Submit</a></nav></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]" id="main-content"><div class="site-shell edition-note"><span class="edition-pill"><span class="edition-dot"></span>Preview edition</span><p>Menus, prices, ratings and opening hours are sample content from the supplied design. Please check with the venue before visiting.</p></div><div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin py-space-xl"><div class="flex flex-col w-full">
+<section class="relative w-full mb-space-xl">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg">
+<div class="max-w-2xl flex flex-col gap-space-xs">
+<div class="inline-flex items-center gap-space-xs px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container w-fit">
+<span aria-hidden="true" class="material-symbols-outlined text-[16px]">verified</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Community Directory &amp; Submissions</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-primary tracking-tight responsive-title">Know a Matcha Hidden Gem in Melbourne?</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          Help us map every authentic whisk in the city. Submit a neighbourhood newcomer or drop your honest taste review with ceremonial grade origins, froth density, and photos.
+        </p>
+</div>
+<div class="flex items-center gap-space-md p-space-sm rounded-xl bg-surface-container-low shadow-sm">
+<div class="flex flex-col px-space-sm">
+<span class="font-headline-md text-headline-md text-primary font-semibold">6</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Sample Cafés</span>
+</div>
+<div class="w-px h-8 bg-outline-variant/30"></div>
+<div class="flex flex-col px-space-sm">
+<span class="font-headline-md text-headline-md text-secondary font-semibold">2</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Sample Reviews</span>
+</div>
+<div class="w-px h-8 bg-outline-variant/30"></div>
+<div class="flex flex-col px-space-sm">
+<span class="font-headline-md text-headline-md text-on-primary-container font-semibold">Local</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Personal Logbook</span>
+</div>
+</div>
+</div>
+</section>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<div class="p-space-lg lg:p-space-xl rounded-xl bg-surface-container-low shadow-sm">
+<div class="flex items-center justify-between pb-space-md mb-space-lg">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant/80">Your Personal Logbook</span>
+<h2 class="font-headline-md text-headline-md text-primary">Suggest a New Matcha Spot</h2>
+</div>
+<span aria-hidden="true" class="material-symbols-outlined text-[28px] text-secondary">local_cafe</span>
+</div>
+<form class="flex flex-col gap-space-lg" id="submitCafeForm"><p class="local-note">Your suggestions and photos are saved on this browser. Download a copy after saving to share them.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="venueName">Venue Name <span class="text-error">*</span></label>
+<input class="w-full px-4 py-2.5 rounded-lg bg-surface text-on-surface placeholder:text-on-surface-variant/50 focus:bg-surface-container-lowest focus:shadow-sm outline-none transition-all" id="venueName" name="venueName" placeholder="e.g. Matcha Koto" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="suburb">Melbourne Suburb <span class="text-error">*</span></label>
+<div class="relative">
+<select class="w-full appearance-none px-4 py-2.5 rounded-lg bg-surface text-on-surface focus:bg-surface-container-lowest focus:shadow-sm outline-none transition-all pr-10" id="suburb" name="suburb" required="">
+<option disabled="" selected="" value="">Select neighbourhood</option>
+<option value="cbd">Melbourne CBD</option>
+<option value="fitzroy">Fitzroy</option>
+<option value="collingwood">Collingwood</option>
+<option value="carlton">Carlton</option>
+<option value="south-yarra">South Yarra</option>
+<option value="richmond">Richmond</option>
+<option value="box-hill">Box Hill</option>
+<option value="brunswick">Brunswick</option>
+<option value="prahran">Prahran</option>
+<option value="other">Other Greater Melbourne</option>
+</select>
+<span aria-hidden="true" class="material-symbols-outlined absolute right-3 top-2.5 pointer-events-none text-on-surface-variant text-[20px]">expand_more</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="streetAddress">Street Address</label>
+<div class="relative flex items-center">
+<span aria-hidden="true" class="material-symbols-outlined absolute left-3 text-on-surface-variant text-[18px]">pin_drop</span>
+<input class="w-full pl-10 pr-4 py-2.5 rounded-lg bg-surface text-on-surface placeholder:text-on-surface-variant/50 focus:bg-surface-container-lowest focus:shadow-sm outline-none transition-all" id="streetAddress" name="streetAddress" placeholder="e.g. 214 Gertrude Street, Shop 2" type="text"/>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface">Estimated Price Range <span class="text-error">*</span></label>
+<div class="grid grid-cols-3 gap-space-sm" id="priceRangePicker">
+<button class="price-btn py-2.5 px-3 rounded-lg bg-surface hover:bg-surface-container text-on-surface text-center flex flex-col items-center gap-0.5 transition-colors" data-price="1" type="button">
+<span class="font-label-md text-label-md font-bold">$</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Under $8</span>
+</button>
+<button class="price-btn active-price py-2.5 px-3 rounded-lg bg-primary text-on-primary text-center flex flex-col items-center gap-0.5 shadow-sm transition-colors" data-price="2" type="button">
+<span class="font-label-md text-label-md font-bold">$$</span>
+<span class="font-label-sm text-label-sm text-primary-fixed">Average $8–$14</span>
+</button>
+<button class="price-btn py-2.5 px-3 rounded-lg bg-surface hover:bg-surface-container text-on-surface text-center flex flex-col items-center gap-0.5 transition-colors" data-price="3" type="button">
+<span class="font-label-md text-label-md font-bold">$$$</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">$15+ Premium</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="signatureDrink">Signature Drink &amp; Price</label>
+<input class="w-full px-4 py-2.5 rounded-lg bg-surface text-on-surface placeholder:text-on-surface-variant/50 focus:bg-surface-container-lowest focus:shadow-sm outline-none transition-all" id="signatureDrink" name="signatureDrink" placeholder="e.g. Strawberry Matcha Latte - $8.50" type="text"/>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="matchaOrigin">Matcha Provenance / Cultivar</label>
+<div class="relative">
+<select class="w-full appearance-none px-4 py-2.5 rounded-lg bg-surface text-on-surface focus:bg-surface-container-lowest focus:shadow-sm outline-none transition-all pr-10" id="matchaOrigin" name="matchaOrigin">
+<option disabled="" selected="" value="">Select Japanese Pref.</option>
+<option value="uji">Uji, Kyoto (Ceremonial Grade)</option>
+<option value="shizuoka">Shizuoka Prefecture</option>
+<option value="kagoshima">Kagoshima (Single Cultivar)</option>
+<option value="yame">Yame, Fukuoka</option>
+<option value="unsure">Unsure / House Blend</option>
+</select>
+<span aria-hidden="true" class="material-symbols-outlined absolute right-3 top-2.5 pointer-events-none text-on-surface-variant text-[20px]">expand_more</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="instagramHandle">Instagram Handle</label>
+<div class="relative flex items-center">
+<span class="absolute left-3 font-label-md text-label-md text-on-surface-variant">@</span>
+<input class="w-full pl-8 pr-4 py-2.5 rounded-lg bg-surface text-on-surface placeholder:text-on-surface-variant/50 focus:bg-surface-container-lowest focus:shadow-sm outline-none transition-all" id="instagramHandle" name="instagramHandle" placeholder="barista.matcha" type="text"/>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface" for="tiktokHandle">TikTok / Media URL</label>
+<div class="relative flex items-center">
+<span aria-hidden="true" class="material-symbols-outlined absolute left-3 text-on-surface-variant text-[18px]">link</span>
+<input class="w-full pl-10 pr-4 py-2.5 rounded-lg bg-surface text-on-surface placeholder:text-on-surface-variant/50 focus:bg-surface-container-lowest focus:shadow-sm outline-none transition-all" id="tiktokHandle" name="tiktokHandle" placeholder="https://tiktok.com/@..." type="url"/>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface mb-1">Key Specialty Credentials</label>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-xs">
+<label class="flex items-center gap-space-sm p-2 rounded-lg bg-surface hover:bg-surface-container cursor-pointer transition-colors">
+<input checked="" class="w-4 h-4 accent-secondary rounded" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">Hand-Whisked (Chasen)</span>
+</label>
+<label class="flex items-center gap-space-sm p-2 rounded-lg bg-surface hover:bg-surface-container cursor-pointer transition-colors">
+<input class="w-4 h-4 accent-secondary rounded" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">Oat Milk Free Upgrade</span>
+</label>
+<label class="flex items-center gap-space-sm p-2 rounded-lg bg-surface hover:bg-surface-container cursor-pointer transition-colors">
+<input checked="" class="w-4 h-4 accent-secondary rounded" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">Authentic Japanese Sweets</span>
+</label>
+<label class="flex items-center gap-space-sm p-2 rounded-lg bg-surface hover:bg-surface-container cursor-pointer transition-colors">
+<input class="w-4 h-4 accent-secondary rounded" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">Late Night Matcha Bar</span>
+</label>
+<label class="flex items-center gap-space-sm p-2 rounded-lg bg-surface hover:bg-surface-container cursor-pointer transition-colors">
+<input class="w-4 h-4 accent-secondary rounded" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">Courtyard / Outdoor Seating</span>
+</label>
+<label class="flex items-center gap-space-sm p-2 rounded-lg bg-surface hover:bg-surface-container cursor-pointer transition-colors">
+<input class="w-4 h-4 accent-secondary rounded" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">Retail Ceremonial Tins</span>
+</label>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-md text-label-md text-on-surface">Café photos (optional)</span>
+<div class="group relative flex flex-col items-center justify-center p-space-lg rounded-xl bg-surface hover:bg-surface-container-lowest transition-all cursor-pointer text-center" id="dropZone">
+<input accept="image/*" aria-label="Add up to three café photos" class="absolute inset-0 opacity-0 cursor-pointer w-full h-full" multiple="" type="file"/>
+<div class="w-12 h-12 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center mb-space-xs group-hover:scale-105 transition-transform">
+<span aria-hidden="true" class="material-symbols-outlined text-[24px]">cloud_upload</span>
+</div>
+<p class="font-label-lg text-label-lg text-on-surface">Drop cafe facade or menu snaps here</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Up to 3 JPG, PNG or WebP photos, each under 5 MB</p>
+<div class="flex items-center gap-2 mt-3 text-secondary font-label-sm text-label-sm">
+<span aria-hidden="true" class="material-symbols-outlined text-[16px]">add_photo_alternate</span>
+<span>Or browse files from your camera roll</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-md pt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span aria-hidden="true" class="material-symbols-outlined text-[18px] text-secondary">policy</span>
+<span>Saved locally on this browser. Download a copy to share.</span>
+</div>
+<button class="w-full sm:w-auto px-6 py-3.5 rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-primary shadow-sm hover:shadow-md transition-all flex items-center justify-center gap-space-xs" type="submit"><span>Save café suggestion</span><span aria-hidden="true" class="material-symbols-outlined">arrow_forward</span></button>
+</div>
+<div class="photo-previews" id="photo-previews"></div><p class="form-feedback" id="form-feedback" role="status"></p></form>
+<section class="suggestion-log"><div class="section-line"><h3>Your café suggestions</h3><button class="text-button" id="export-suggestions" type="button">Download JSON ↗</button></div><div id="suggestion-list"></div></section></div>
+<div class="p-space-lg rounded-xl bg-primary text-on-primary flex flex-col sm:flex-row gap-space-md items-start">
+<div class="p-3 rounded-lg bg-primary-container text-secondary-fixed shrink-0">
+<span aria-hidden="true" class="material-symbols-outlined text-[28px]">verified_user</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm text-on-primary">A little logbook for your discoveries</h3>
+<p class="font-body-sm text-body-sm text-primary-fixed-dim leading-relaxed">
+            Keep a personal list of the matcha spots you want to try, with signature drinks, photos and notes. Save a suggestion here, then download a copy whenever you want to share it.
+          </p>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse"></span>
+<h2 class="font-headline-md text-headline-md text-primary">Community tasting notes</h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Sample Notes</span>
+</div><p class="local-note">The two reviews below are examples from the design. Your own notes stay on this browser.</p><button class="button-primary write-review" type="button">Write a tasting note</button><div id="local-review-list"></div>
+<div class="flex flex-col gap-space-md">
+<article class="p-space-md rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-space-sm hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center font-label-md text-label-md">
+                  SL
+                </div>
+<div>
+<h3 class="font-label-lg text-label-lg text-on-surface">Sarah L.</h3>
+<div class="flex items-center gap-1 font-body-sm text-body-sm text-on-surface-variant">
+<span>reviewed</span>
+<span class="font-semibold text-primary">Tori’s</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">CBD</span>
+</div>
+</div>
+</div>
+<div class="flex items-center text-secondary">
+<span aria-hidden="true" class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span aria-hidden="true" class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span aria-hidden="true" class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span aria-hidden="true" class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span aria-hidden="true" class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<div class="flex gap-space-sm">
+<img alt="Close up photograph of a creamy iced matcha latte with thick velvet foam topping on a minimalist wooden cafe counter in Melbourne CBD, soft natural window light with subtle matcha powder dusting on top." class="w-20 h-20 rounded-lg object-cover shrink-0" data-alt="Close up photograph of a creamy iced matcha latte with thick velvet foam topping on a minimalist wooden cafe counter in Melbourne CBD, soft natural window light with subtle matcha powder dusting on top." decoding="async" loading="lazy" src="./assets/photo-2ce08a09c60e.jpg"/>
+<div class="flex flex-col justify-between">
+<p class="font-body-md text-body-md text-on-surface italic line-clamp-3">
+                  “The foam on the iced cream-top matcha is out of this world. $9.20 well spent. Get there before 2 PM before the Basque cheesecake sells out!”
+                </p>
+<div class="flex items-center gap-2 pt-1">
+<span class="px-2 py-0.5 rounded bg-surface text-secondary font-label-sm text-label-sm">Intensity 4/5</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">2 hours ago</span>
+</div>
+</div>
+</div>
+</article>
+<article class="p-space-md rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-space-sm hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-label-md text-label-md">
+                  KT
+                </div>
+<div>
+<h3 class="font-label-lg text-label-lg text-on-surface">Kenji T.</h3>
+<div class="flex items-center gap-1 font-body-sm text-body-sm text-on-surface-variant">
+<span>reviewed</span>
+<span class="font-semibold text-primary">Hareruya Pantry</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">Carlton</span>
+</div>
+</div>
+</div>
+<div class="flex items-center text-secondary">
+<span aria-hidden="true" class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span aria-hidden="true" class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span aria-hidden="true" class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span aria-hidden="true" class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span aria-hidden="true" class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<div class="flex gap-space-sm">
+<img alt="Artisanal deep forest green matcha gelato wrapped in freshly made stretchy white mochi skin served on a traditional Japanese ceramic plate inside a sunlit Carlton cafe." class="w-20 h-20 rounded-lg object-cover shrink-0" data-alt="Artisanal deep forest green matcha gelato wrapped in freshly made stretchy white mochi skin served on a traditional Japanese ceramic plate inside a sunlit Carlton cafe." decoding="async" loading="lazy" src="./assets/photo-ee5f137ab446.jpg"/>
+<div class="flex flex-col justify-between">
+<p class="font-body-md text-body-md text-on-surface italic line-clamp-3">
+                  “The Marukyu Koyamaen matcha gelato wrapped in hot mochi is the best Japanese dessert in Melbourne. Real chasen whisking on display.”
+                </p>
+<div class="flex items-center gap-2 pt-1">
+<span class="px-2 py-0.5 rounded bg-surface text-secondary font-label-sm text-label-sm">Sweetness 2/5</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Yesterday</span>
+</div>
+</div>
+</div>
+</article>
+<article class="p-space-md rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-space-xs hover:bg-surface-container transition-colors">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-surface-variant text-on-surface flex items-center justify-center font-label-sm text-label-sm">
+                  MR
+                </div>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Mia R. submitted a spot</span>
+<h4 class="font-headline-sm text-headline-sm text-primary">Matchano</h4>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm flex items-center gap-1">
+<span aria-hidden="true" class="material-symbols-outlined text-[14px]">hourglass_top</span>
+<span>Sample Submission</span>
+</span>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm pt-2">
+<div class="flex items-center gap-1">
+<span aria-hidden="true" class="material-symbols-outlined text-[16px] text-secondary">location_on</span>
+<span>142 Gertrude St, Fitzroy</span>
+</div>
+<span class="font-semibold text-primary">Price: $$</span>
+</div>
+</article>
+</div>
+</div><div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span aria-hidden="true" class="material-symbols-outlined text-secondary text-[22px]">award_star</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">A Few Cups to Try</h3>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Concept Favourites</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface">
+<div class="flex items-center gap-space-sm">
+<div class="w-7 h-7 rounded-full bg-secondary text-on-secondary font-label-md text-label-md flex items-center justify-center font-bold">
+                1
+              </div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Hareruya Mochi Gelato</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Carlton • Single-Origin Uji</p>
+</div>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-label-md text-label-md text-secondary font-bold">Sample</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">pick</span>
+</div>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface">
+<div class="flex items-center gap-space-sm">
+<div class="w-7 h-7 rounded-full bg-surface-variant text-on-surface font-label-md text-label-md flex items-center justify-center font-bold">
+                2
+              </div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Little Rogue Oat Matcha</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">CBD Laneway • House Blend</p>
+</div>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-label-md text-label-md text-secondary font-bold">Sample</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">pick</span>
+</div>
+</div>
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface">
+<div class="flex items-center gap-space-sm">
+<div class="w-7 h-7 rounded-full bg-surface-variant text-on-surface font-label-md text-label-md flex items-center justify-center font-bold">
+                3
+              </div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Tori’s Cream Top Matcha</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">CBD • Yame Cultivar</p>
+</div>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-label-md text-label-md text-secondary font-bold">Sample</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">pick</span>
+</div>
+</div>
+</div>
+<div class="pt-space-xs">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant mb-1">
+<span>A Little Matcha Inspiration</span>
+<span>Illustrative picks from the original design</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 92%"></div>
+</div>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span aria-hidden="true" class="material-symbols-outlined text-secondary text-[22px]">help_center</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Community Guidelines &amp; FAQ</h3>
+</div>
+<div class="flex flex-col gap-space-sm" id="faqAccordion">
+<div class="faq-item rounded-lg bg-surface overflow-hidden">
+<button aria-controls="faq-answer-1" aria-expanded="false" class="faq-toggle w-full px-4 py-3 flex items-center justify-between text-left font-label-lg text-label-lg text-on-surface hover:text-primary" type="button">Where are my suggestions saved?<span aria-hidden="true" class="material-symbols-outlined faq-icon">expand_more</span></button>
+<div class="faq-answer px-4 pb-3 pt-0 font-body-sm text-body-sm text-on-surface-variant hidden" id="faq-answer-1">Suggestions, tasting notes and saved cafés stay in this browser’s local storage. This preview does not send them to a server or an editorial team. Clearing browser data will remove your saved entries.</div>
+</div>
+<div class="faq-item rounded-lg bg-surface overflow-hidden">
+<button aria-controls="faq-answer-2" aria-expanded="false" class="faq-toggle w-full px-4 py-3 flex items-center justify-between text-left font-label-lg text-label-lg text-on-surface hover:text-primary" type="button">Can I add café photos?<span aria-hidden="true" class="material-symbols-outlined faq-icon">expand_more</span></button>
+<div class="faq-answer px-4 pb-3 pt-0 font-body-sm text-body-sm text-on-surface-variant hidden" id="faq-answer-2">Yes. Add up to three JPG, PNG or WebP photos, each under 5 MB. The website saves smaller thumbnails on this browser so they can be included in your download.</div>
+</div>
+<div class="faq-item rounded-lg bg-surface overflow-hidden">
+<button aria-controls="faq-answer-3" aria-expanded="false" class="faq-toggle w-full px-4 py-3 flex items-center justify-between text-left font-label-lg text-label-lg text-on-surface hover:text-primary" type="button">How do I share my suggestions?<span aria-hidden="true" class="material-symbols-outlined faq-icon">expand_more</span></button>
+<div class="faq-answer px-4 pb-3 pt-0 font-body-sm text-body-sm text-on-surface-variant hidden" id="faq-answer-3">Choose Download JSON below your suggestion log. The downloaded file contains your suggestions and photo thumbnails, ready for you to share. This website does not send it automatically.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></main><footer class="site-footer"><div class="site-shell footer-grid"><div><a class="footer-brand" href="./index.html">Matcha Melbourne<span>抹茶</span></a><p>A little less scrolling.<br/>A little more matcha.</p><p class="footer-small">Made for the curious, in Naarm / Melbourne.</p></div><div><h3>Find your next cup</h3><a href="./index.html">Explore the directory</a><a href="./cafe-spotlight.html">This edition’s café spotlight</a><a href="./matcha-map-and-suburbs.html">Neighbourhood map &amp; walking crawls</a></div><div><h3>Make it yours</h3><a href="./community-and-submit.html">Suggest a matcha spot</a><button data-open-saved="" type="button">Open your saved cafés</button><a href="https://github.com/jasminenguyen475-sketch/matchamelbourne.com" rel="noopener noreferrer" target="_blank">View website source ↗</a></div></div><div class="site-shell footer-bottom"><span>© 2026 Matcha Melbourne</span><span>Independent concept · Not affiliated with featured venues</span></div></footer><div class="toast" hidden="" id="toast" role="status"></div><dialog id="site-dialog"><button aria-label="Close dialog" class="dialog-close icon-button" type="button"><span aria-hidden="true">×</span></button><div id="dialog-content"></div></dialog><script defer="" src="./assets/data.js"></script><script defer="" src="./assets/app.js"></script></body></html>
